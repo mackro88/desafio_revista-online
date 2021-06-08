@@ -1,4 +1,6 @@
 /* Manifest File */
+/* Variables Styles */
+/* Mixins Styles */
 /* Reset */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -47,6 +49,59 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+/* Grid Layout */
+html, body {
+  width: 100%;
+  height: 100%; }
+
+@media (min-width: 992px) {
+  .home-main {
+    width: 70vw; } }
+
+@media (min-width: 992px) {
+  .aside {
+    visibility: visible; } }
+
 /* Header Layout */
+.home-header {
+  width: 100vw;
+  height: 5rem;
+  position: static;
+  background-color: antiquewhite; }
+
+/* Footer Layout */
+.home-footer {
+  width: 100vw;
+  height: 15rem;
+  position: relative;
+  background-color: cornflowerblue;
+  clear: both; }
+
+/* Main-section Layout */
+.home-aside {
+  width: 30vw;
+  height: 100%;
+  position: relative;
+  float: right;
+  background-color: cadetblue;
+  visibility: hidden; }
+
+/* Main-section Layout */
+.home-main {
+  width: 100vw;
+  height: 100%;
+  position: relative;
+  float: left;
+  background-color: burlywood;
+  display: block; }
+
+/* Card Styles */
+.home-main__card {
+  box-sizing: border-box;
+  height: 600px;
+  width: 30%;
+  padding: 1rem 1.5rem;
+  background-color: crimson;
+  float: left; }
 
 /*# sourceMappingURL=main.css.map */
