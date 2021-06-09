@@ -1,9 +1,37 @@
 /* Card Styles */
-.home-main__card{
-    box-sizing: border-box;
-    height: 600px;
-    width: 30%;
-    padding: 1rem 1.5rem;
-    background-color: crimson;
-    float: left;
+.home-main{
+
+    &__card{
+        height: auto;
+        max-width: 300px;
+        width: 80%;
+        padding: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        text-align: center;
+        border-bottom: 1px dotted black;
+    }
+    
+    &__card-title{
+        box-sizing: border-box;
+        padding: .5rem;
+        width: 100%;
+        height: 10%;
+    }
+    
+    &__card-img{
+        box-sizing: border-box;
+        padding: .5rem;
+        width: 100%;
+        max-width: 400px;
+        height: 80%; 
+    }
+    
+    &__card-info{
+        box-sizing: border-box;
+        padding: .5rem;
+        width: 100%;
+        height: 10%;
+    }
 }

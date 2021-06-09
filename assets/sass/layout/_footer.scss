@@ -5,4 +5,30 @@
     position: relative;
     background-color:cornflowerblue;
     clear: both;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 2rem;
+    
+    &__newsletter{
+        height: 90%;
+        width: 100%;
+    }
+    
+    &__copyright{
+        height: 10%;
+        width: 100%;
+    }
+    
+    h2{
+        height: 40%;
+        width: 100%;
+    }
+    p{
+        height: 35%;
+        width: 100%;
+    }
+    &__suscribe{
+        height: 25%;
+        width: 100%;
+    }
 }

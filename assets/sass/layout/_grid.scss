@@ -1,17 +1,18 @@
 /* Grid Layout */
-html, body{
-    width: 100%;
-    height: 100%;
-}
 .home-main{
     @include respond-to('large') {
         width: 70vw;
       }
+    
+      &__card{
+        width: calc(100% / 3);
+    }
+    
 }
 .aside{
     @include respond-to('large') {
-        visibility: visible;
-      }
+        display: block;
+    }
 }
 .home-footer{
     

@@ -1,0 +1,16 @@
+/* Navigation Styles */
+.home-header{
+    &__nav{
+        width: auto;
+        height: 5rem;
+        position: relative;
+        float: right;
+        padding-top: 1.6rem;
+        box-sizing: border-box;
+    }  
+    
+    & #search{
+        width: 100px;
+        margin-right: 1.3rem;
+    } 
+}

@@ -4,4 +4,10 @@
     height: 5rem;
     position: static;
     background-color: antiquewhite;
+    
+    &__logo{
+        position: absolute;
+        left: 1.3rem;
+        top: 2rem;
+    }
 }

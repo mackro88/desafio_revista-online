@@ -49,18 +49,66 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* Grid Layout */
+button {
+  background-color: antiquewhite;
+  border: none; }
+
+/* Typography Styles */
+/* Base Styles */
 html, body {
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400; }
 
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 5%; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700; }
+
+h1 {
+  font-size: 50px; }
+
+h2 {
+  font-size: 30px; }
+
+h3 {
+  font-size: 20px; }
+
+h4 {
+  font-size: 16px; }
+
+h5 {
+  font-size: 14px; }
+
+h6 {
+  font-size: 12px; }
+
+/* Navigation Styles */
+.home-header__nav {
+  width: auto;
+  height: 5rem;
+  position: relative;
+  float: right;
+  padding-top: 1.6rem;
+  box-sizing: border-box; }
+.home-header #search {
+  width: 100px;
+  margin-right: 1.3rem; }
+
+/* Grid Layout */
 @media (min-width: 992px) {
   .home-main {
     width: 70vw; } }
+.home-main__card {
+  width: calc(100% / 3); }
 
 @media (min-width: 992px) {
   .aside {
-    visibility: visible; } }
+    display: block; } }
 
 /* Header Layout */
 .home-header {
@@ -68,6 +116,10 @@ html, body {
   height: 5rem;
   position: static;
   background-color: antiquewhite; }
+  .home-header__logo {
+    position: absolute;
+    left: 1.3rem;
+    top: 2rem; }
 
 /* Footer Layout */
 .home-footer {
@@ -75,7 +127,25 @@ html, body {
   height: 15rem;
   position: relative;
   background-color: cornflowerblue;
-  clear: both; }
+  clear: both;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 2rem; }
+  .home-footer__newsletter {
+    height: 90%;
+    width: 100%; }
+  .home-footer__copyright {
+    height: 10%;
+    width: 100%; }
+  .home-footer h2 {
+    height: 40%;
+    width: 100%; }
+  .home-footer p {
+    height: 35%;
+    width: 100%; }
+  .home-footer__suscribe {
+    height: 25%;
+    width: 100%; }
 
 /* Main-section Layout */
 .home-aside {
@@ -84,24 +154,49 @@ html, body {
   position: relative;
   float: right;
   background-color: cadetblue;
-  visibility: hidden; }
+  display: none; }
 
 /* Main-section Layout */
 .home-main {
   width: 100vw;
-  height: 100%;
+  height: auto;
   position: relative;
   float: left;
-  background-color: burlywood;
-  display: block; }
+  background-color: white;
+  display: block;
+  padding: 1rem;
+  box-sizing: border-box; }
+
+/* Buttons Styles */
+#nav-button-nosotros {
+  display: none; }
 
 /* Card Styles */
 .home-main__card {
+  height: auto;
+  max-width: 300px;
+  width: 80%;
+  padding: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  text-align: center;
+  border-bottom: 1px dotted black; }
+.home-main__card-title {
   box-sizing: border-box;
-  height: 600px;
-  width: 30%;
-  padding: 1rem 1.5rem;
-  background-color: crimson;
-  float: left; }
+  padding: .5rem;
+  width: 100%;
+  height: 10%; }
+.home-main__card-img {
+  box-sizing: border-box;
+  padding: .5rem;
+  width: 100%;
+  max-width: 400px;
+  height: 80%; }
+.home-main__card-info {
+  box-sizing: border-box;
+  padding: .5rem;
+  width: 100%;
+  height: 10%; }
 
 /*# sourceMappingURL=main.css.map */

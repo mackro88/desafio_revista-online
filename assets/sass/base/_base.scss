@@ -1,0 +1,33 @@
+/* Base Styles */
+html, body{
+    width: 100%;
+    height: 100%;
+    font-family: $quicksand;
+    font-weight: $r-regular;
+}
+img{
+	width: 100%;
+	height: auto;
+    border-radius: 5%;
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: $r-bold;
+}
+h1{
+    font-size: $xxx-large;
+}
+h2{
+    font-size: $xx-large;
+}
+h3{
+    font-size: $x-large;
+}
+h4{
+    font-size: $medium;
+}
+h5{
+    font-size: $small;
+}
+h6{
+    font-size: $x-small;
+}
