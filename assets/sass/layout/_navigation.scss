@@ -1,5 +1,6 @@
 /* Navigation Styles */
 .home-header{
+    
     &__nav{
         width: auto;
         height: 5rem;
@@ -12,5 +13,6 @@
     & #search{
         width: 100px;
         margin-right: 1.3rem;
+        font-size: $medium;
     } 
 }

@@ -1,4 +1,26 @@
 /* Buttons Styles */
+.home-header__nav-button{
+    background-color:antiquewhite;
+    font-size: $small;
+    
+    &:hover{
+        color:brown ;
+    }
+    
+}
 #nav-button-nosotros{
     display: none;
+    @include respond-to('medium') {
+        display: inline-block;
+    }
+}
+#btn-suscribe{
+    background-color:forestgreen;
+    color: white;
+    font-size: $small;
+    padding: .3rem .6rem;
+    
+    &:hover{
+        background-color:rgb(28, 90, 28);
+    }
 }

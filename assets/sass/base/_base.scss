@@ -1,7 +1,7 @@
 /* Base Styles */
 html, body{
     width: 100%;
-    height: 100%;
+    height: auto;
     font-family: $quicksand;
     font-weight: $r-regular;
 }
@@ -12,6 +12,8 @@ img{
 }
 h1, h2, h3, h4, h5, h6{
     font-weight: $r-bold;
+    font-family: $libre-franklin;
+    line-height: 1.8rem;
 }
 h1{
     font-size: $xxx-large;
@@ -30,4 +32,10 @@ h5{
 }
 h6{
     font-size: $x-small;
+}
+p{
+    font-size: $medium;
+    font-family: $quicksand;
+    font-weight: $r-regular;
+    line-height: 1.2rem;
 }

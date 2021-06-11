@@ -1,19 +1,6 @@
 /* Grid Layout */
-.home-main{
-    @include respond-to('large') {
+@include respond-to('medium') {
+    .home-main{
         width: 70vw;
-      }
-    
-      &__card{
-        width: calc(100% / 3);
     }
-    
-}
-.aside{
-    @include respond-to('large') {
-        display: block;
-    }
-}
-.home-footer{
-    
 }
